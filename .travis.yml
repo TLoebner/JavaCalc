@@ -1,0 +1,14 @@
+language: java
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk6
+
+script: ant test
+
+branches:
+  only:
+  - master
+notifications:
+  email:
+  - loebnert@gmail.com
