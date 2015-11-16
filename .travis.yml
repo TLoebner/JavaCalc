@@ -1,4 +1,7 @@
 language: java
+env:
+  - TEST_SUITE=units
+  - TEST_SUITE=integration
 jdk:
   - oraclejdk8
   - oraclejdk7
@@ -7,7 +10,7 @@ jdk:
   - openjdk7
 #  - openjdk8
 
-script: ant test
+script: ant 
 
 branches:
   only:
