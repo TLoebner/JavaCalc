@@ -7,13 +7,18 @@ package calculator;
 
 /**
  * <p>Java class for basic math.
- * 
- * 
- * <pre>
- *
- * </pre>
- * 
- * 
+ * @var  IVar1  inter input variable 1
+ * @var  IVar2  inter input variable 2
+ * @var  IErg  integer return variable
+ * @var  LVar1  long input variable 1
+ * @var  LVar2  long input variable 2
+ * @var  LErg  long return variable
+ * @var  FVar1  float input variable 1
+ * @var  FVar2  float input variable 2
+ * @var  FErg  float return variable
+ * @var  DVar1  double input variable 1
+ * @var  DVar2  double input variable 2
+ * @var  DErg  double return variable
  */
 public class basicCalc {
     private int IVar1,IVar2,IErg;
@@ -51,12 +56,8 @@ public class basicCalc {
     }
 /**
  * <p>Basic constructor with initialization for integer operations
- * 
- * 
- * <pre>
- *
- * </pre>
- * 
+ * @param var1  input variable 1
+ * @param var2  input variable 2
  * 
  */
     public basicCalc(int var1, int var2)
@@ -79,12 +80,8 @@ public class basicCalc {
     }
 /**
  * <p>Basic constructor with initialization for long operations
- * 
- * 
- * <pre>
- *
- * </pre>
- * 
+ * @param var1  input variable 1
+ * @param var2  input variable 2
  * 
  */
     public basicCalc(long var1, long var2)
@@ -107,12 +104,8 @@ public class basicCalc {
     }
 /**
  * <p>Basic constructor with initialization for float operations
- * 
- * 
- * <pre>
- *
- * </pre>
- * 
+ * @param var1  input variable 1
+ * @param var2  input variable 2
  * 
  */
     public basicCalc(float var1, float var2)
@@ -135,12 +128,8 @@ public class basicCalc {
     }
 /**
  * <p>Basic constructor with initialization for double operations
- * 
- * 
- * <pre>
- *
- * </pre>
- * 
+ * @param var1  input variable 1
+ * @param var2  input variable 2
  * 
  */
     public basicCalc(double var1, double var2)
@@ -164,6 +153,8 @@ public class basicCalc {
 
 /**
  * <p>Sets integer input variable 1
+  * @param var  input variable
+  * 
  */
     public void set_Var1(int var)
     {
@@ -171,6 +162,8 @@ public class basicCalc {
     }
 /**
  * <p>Sets integer input variable 2
+   * @param var  input variable
+  * 
  */
     public void set_Var2(int var)
     {
@@ -178,6 +171,8 @@ public class basicCalc {
     }
 /**
  * <p>Sets long input variable 1
+  * @param var  input variable
+  * 
  */
     public void set_Var1(long var)
     {
@@ -185,6 +180,8 @@ public class basicCalc {
     }
 /**
  * <p>Sets long input variable 2
+  * @param var  input variable
+  * 
  */
     public void set_Var2(long var)
     {
@@ -192,6 +189,8 @@ public class basicCalc {
     }
 /**
  * <p>Sets float input variable 1
+  * @param var  input variable
+  * 
  */
     public void set_Var1(float var)
     {
@@ -199,6 +198,8 @@ public class basicCalc {
     }
 /**
  * <p>Sets float input variable 2
+  * @param var  input variable
+  * 
  */
     public void set_Var2(float var)
     {
@@ -206,6 +207,8 @@ public class basicCalc {
     }
 /**
  * <p>Sets double input variable 1
+  * @param var  input variable
+  * 
  */
     public void set_Var1(double var)
     {
@@ -213,6 +216,8 @@ public class basicCalc {
     }
 /**
  * <p>Sets double input variable 2
+   * @param var  input variable
+  * 
  */
     public void set_Var2(double var)
     {
@@ -221,6 +226,8 @@ public class basicCalc {
 
 /**
  * <p>returns integer calculation result
+  * @return integer result
+  * 
  */
     public int get_IErg()
     {
@@ -228,6 +235,8 @@ public class basicCalc {
     }
 /**
  * <p>returns long calculation result
+  * @return long result
+  * 
  */
     public long get_LErg()
     {
@@ -235,6 +244,8 @@ public class basicCalc {
     }
 /**
  * <p>returns float calculation result
+  * @return float result
+  * 
  */
     public float get_FErg()
     {
@@ -242,6 +253,8 @@ public class basicCalc {
     }
 /**
  * <p>returns double calculation result
+  * @return double result
+  * 
  */
     public double get_DErg()
     {
