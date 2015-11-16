@@ -50,6 +50,7 @@
    
   <target name="doc" depends="init" description="generate documentation">
     <javadoc sourcepath="${main.src.dir}" destdir="${doc.dir}"/>
+    <javadoc sourcepath="${test.src.dir}" destdir="${doc.dir}"/>
   </target>  
   
   <!-- delete all class files -->
