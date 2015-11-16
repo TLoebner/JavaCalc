@@ -1,17 +1,7 @@
 language: java
 jdk:
-  - oraclejdk8
   - oraclejdk7
-#  - oraclejdk6
-  - openjdk6
+  - oraclejdk8
   - openjdk7
-#  - openjdk8
+  - openjdk6
 
-script: ant 
-
-branches:
-  only:
-  - master
-notifications:
-  email:
-  - loebnert@gmail.com
