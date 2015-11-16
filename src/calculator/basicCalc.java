@@ -7,18 +7,6 @@ package calculator;
 
 /**
  * <p>Java class for basic math.
- * @var  IVar1  inter input variable 1
- * @var  IVar2  inter input variable 2
- * @var  IErg  integer return variable
- * @var  LVar1  long input variable 1
- * @var  LVar2  long input variable 2
- * @var  LErg  long return variable
- * @var  FVar1  float input variable 1
- * @var  FVar2  float input variable 2
- * @var  FErg  float return variable
- * @var  DVar1  double input variable 1
- * @var  DVar2  double input variable 2
- * @var  DErg  double return variable
  */
 public class basicCalc {
     private int IVar1,IVar2,IErg;
