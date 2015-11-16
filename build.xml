@@ -15,7 +15,7 @@
     <path refid="classpath.base" />
   </path>
 
-  <target name="test" depends="run, clean" />
+  <target name="test" depends="run, clean, doc" />
 
   <target name="compile">
     <mkdir dir="${main.build.dir}"/>
@@ -24,7 +24,7 @@
     </javac>
   </target>
 
-  <target name="build" depends="compile, doc">
+  <target name="build" depends="compile">
     <mkdir dir="${test.build.dir}"/>
     <javac srcdir="${test.src.dir}" destdir="${test.build.dir}" includeantruntime="false">
         <classpath refid="classpath.test"/>
@@ -49,8 +49,10 @@
   </target>
    
   <target name="doc" depends="compile" description="generate documentation">
-    <javadoc sourcepath="${main.src.dir}" destdir="${doc.dir}"/>
-    <javadoc sourcepath="${test.src.dir}" destdir="${doc.dir}"/>
+      <javadoc destdir="${doc.dir}">
+          <fileset dir="${main.src.dir}" includes="**/*.java" />
+          <fileset dir="${test.src.dir}" includes="**/*.java" />
+      </javadoc>
   </target>  
   
   <!-- delete all class files -->
