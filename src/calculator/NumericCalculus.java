@@ -18,17 +18,17 @@ public class NumericCalculus {
     char[] function1_type;
     char[] function2_type;
     
-    NumericCalculus(double[][] points)
+    public NumericCalculus(double[][] points)
     {
         this.function1_points = points;
     }
     
-    NumericCalculus(double[] exp)
+    public NumericCalculus(double[] exp)
     {
         this.function1_exp = exp;
     }
     
-    NumericCalculus(char[] type)
+    public NumericCalculus(char[] type)
     {
         this.function1_type = type;
     }
