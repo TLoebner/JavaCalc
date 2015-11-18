@@ -18,23 +18,7 @@ public class NumericCalculus {
     char[] function2_type;
     double[] numa_error;
     double max_error;
-    /*
-    public NumericCalculus(double[][] points)
-    {
-        //this.function1_points = points;
-    }
-    
-    public NumericCalculus(double[] exp)
-    {
-        //this.function1_exp = exp;
-    }
-    
-    public NumericCalculus(char[] type)
-    {
-        //this.function1_type = type;
-    }
-    */
-    
+        
     public void set_function1_points(double[][] points)
     {
         this.function1_points = points;
