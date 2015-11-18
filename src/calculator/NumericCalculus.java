@@ -64,42 +64,42 @@ public class NumericCalculus {
         this.function2_type = type;
     }
     
-    public double[][] get_function1_points(void)
+    public double[][] get_function1_points()
     {
         return this.function1_points;
     }
     
-    public double[][] get_function2_points(void)
+    public double[][] get_function2_points()
     {
         return this.function2_points;
     }
     
-    public double[] get_function1_exp(void)
+    public double[] get_function1_exp()
     {
         return this.function1_exp;
     }
     
-    public double[] get_function2_exp(void)
+    public double[] get_function2_exp()
     {
         return this.function2_exp;
     }
     
-    public char[] get_function1_type(void)
+    public char[] get_function1_type()
     {
         return this.function1_type;
     }
     
-    public char[] get_function2_type(void)
+    public char[] get_function2_type()
     {
         return this.function2_type;
     }
     
-    public double get_numa_error(void)
+    public double get_numa_error()
     {
         return this.numa_error;
     }
     
-    public double get_max_error(void)
+    public double get_max_error()
     {
         return this.max_error;
     }
