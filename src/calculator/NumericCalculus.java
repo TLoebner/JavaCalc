@@ -20,17 +20,17 @@ public class NumericCalculus {
     
     public NumericCalculus(double[][] points)
     {
-        this.function1_points = points;
+        //this.function1_points = points;
     }
     
     public NumericCalculus(double[] exp)
     {
-        this.function1_exp = exp;
+        //this.function1_exp = exp;
     }
     
     public NumericCalculus(char[] type)
     {
-        this.function1_type = type;
+        //this.function1_type = type;
     }
     
 }
