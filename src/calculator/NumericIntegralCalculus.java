@@ -11,4 +11,8 @@ package calculator;
  */
 public class NumericIntegralCalculus extends NumericCalculus {
     
+    public void rectangular(double max_error)
+    {
+    
+    }
 }
