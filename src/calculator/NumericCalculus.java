@@ -16,7 +16,8 @@ public class NumericCalculus {
     double[] function2_exp;
     char[] function1_type;
     char[] function2_type;
-    double[] numa_error, max_error;
+    double[] numa_error;
+    double max_error;
     /*
     public NumericCalculus(double[][] points)
     {
@@ -94,7 +95,7 @@ public class NumericCalculus {
         return this.function2_type;
     }
     
-    public double get_numa_error()
+    public double[] get_numa_error()
     {
         return this.numa_error;
     }
