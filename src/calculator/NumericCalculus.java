@@ -33,4 +33,9 @@ public class NumericCalculus {
         //this.function1_type = type;
     }
     */
+    
+    public void set_function1_points(double[][] points)
+    {
+        this.function1_points = points;
+    }
 }
