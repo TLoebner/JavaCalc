@@ -28,7 +28,7 @@ public class NumericCalculus {
         this.function1_exp = exp;
     }
     
-    NumericCalculus(string[] type)
+    NumericCalculus(char[] type)
     {
         this.function1_type = type;
     }
