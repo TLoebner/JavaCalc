@@ -54,12 +54,12 @@ public class NumericCalculus {
         this.function2_exp = points;
     }
     
-    public set_function1_type(cahr[] type)
+    public void set_function1_type(cahr[] type)
     {
         this.function1_type = type;
     }
     
-    public set_function2_type(cahr[] type)
+    public void set_function2_type(cahr[] type)
     {
         this.function2_type = type;
     }
