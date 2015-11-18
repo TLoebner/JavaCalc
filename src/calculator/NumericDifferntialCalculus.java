@@ -9,6 +9,6 @@ package calculator;
  *
  * @author user
  */
-public class NumericDifferntialCalculus {
+public class NumericDifferntialCalculus extends NumericCalculus {
     
 }
