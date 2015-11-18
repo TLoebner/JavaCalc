@@ -17,7 +17,7 @@ public class NumericCalculus {
     double[] error;
     char[] function1_type;
     char[] function2_type;
-    
+    /*
     public NumericCalculus(double[][] points)
     {
         //this.function1_points = points;
@@ -32,5 +32,5 @@ public class NumericCalculus {
     {
         //this.function1_type = type;
     }
-    
+    */
 }
