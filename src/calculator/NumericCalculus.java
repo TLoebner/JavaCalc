@@ -57,6 +57,49 @@ public class NumericCalculus {
     public void set_function1_type(char[] type)
     {
         this.function1_type = type;
+    }
+    
+    public void set_function2_type(cahr[] type)
+    {
+        this.function2_type = type;
+    }
+    
+    public double[][] get_function1_points()
+    {
+        return this.function1_points;
+    }
+    
+    public double[][] get_function2_points()
+    {
+        return this.function2_points;
+    }
+    
+    public double[] get_function1_exp()
+    {
+        return this.function1_exp;
+    }
+    
+    public double[] get_function2_exp()
+    {
+        return this.function2_exp;
+    }
+    
+    public char[] get_function1_type()
+    {
+        return this.function1_type;
+    }
+    
+    public char[] get_function2_type()
+    {
+        return this.function2_type;
+    }
+    
+    public double get_numa_error()
+    {
+        return this.numa_error;
+    }
+    
+    public double get_max_error()
     {
         return this.max_error;
     }
