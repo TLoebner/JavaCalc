@@ -59,7 +59,7 @@ public class NumericCalculus {
         this.function1_type = type;
     }
     
-    public void set_function2_type(cahr[] type)
+    public void set_function2_type(char[] type)
     {
         this.function2_type = type;
     }
