@@ -36,11 +36,6 @@ public class NumericIntegralCalculus extends NumericCalculus {
     
     }
     
-    public void AdaptivRomberg(double max_error)
-    {
-    
-    }
-    
     public void AdaptiveMultigrid(double max_error)
     {
     
