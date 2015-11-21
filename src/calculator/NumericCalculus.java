@@ -14,6 +14,8 @@ public class NumericCalculus {
     double[][] function2_points;
     double[] function1_exp;
     double[] function2_exp;
+    double[][] equation1_exp;
+    double[][] equation2_exp;
     char[] function1_type;
     char[] function2_type;
     double[] numa_error;
@@ -47,6 +49,16 @@ public class NumericCalculus {
     public void set_function2_type(char[] type)
     {
         this.function2_type = type;
+    }
+    
+    public void set_equation1_exp(double[][] exp)
+    {
+        this.equation1_exp = exp;
+    }
+    
+    public void set_equation2_exp(double[][] exp)
+    {
+        this.equation2_exp = exp;
     }
     
     public double[][] get_function1_points()
@@ -87,6 +99,16 @@ public class NumericCalculus {
     public double get_max_error()
     {
         return this.max_error;
+    }
+    
+    public double[][] get_equation1_exp()
+    {
+        return this.equation1_exp;
+    }
+    
+    public double[][] get_equation2_exp()
+    {
+        return this.equation2_exp;
     }
     
 }

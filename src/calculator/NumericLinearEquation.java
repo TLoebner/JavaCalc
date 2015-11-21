@@ -9,7 +9,7 @@ package calculator;
  *
  * @author user
  */
-public class NumericInterpolation extends NumericCalculus {
+public class NumericLinearEquation extends NumericCalculus {
     
     public void Gauss(double max_error)
     {
