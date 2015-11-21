@@ -76,4 +76,14 @@ public class NumericLinearEquation extends NumericCalculus {
     
     }
     
+    public void Tchebyscheff(double max_error)
+    {
+    
+    }
+    
+    public void Lanczos(double max_error)
+    {
+    
+    }
+    
 }

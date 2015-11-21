@@ -11,7 +11,42 @@ package calculator;
  */
 public class NumericIntegralCalculus extends NumericCalculus {
     
-    public void rectangular(double max_error)
+    public void Rectangular(double max_error)
+    {
+    
+    }
+    
+    public void NewtonCotes(double max_error)
+    {
+    
+    }
+    
+    public void GaussChristofel(double max_error)
+    {
+    
+    }
+    
+    public void Romberg(double max_error)
+    {
+    
+    }
+    
+    public void AdaptivRomberg(double max_error)
+    {
+    
+    }
+    
+    public void AdaptivRomberg(double max_error)
+    {
+    
+    }
+    
+    public void AdaptiveMultigrid(double max_error)
+    {
+    
+    }
+    
+    public void MonteCarlo(double max_error)
     {
     
     }
