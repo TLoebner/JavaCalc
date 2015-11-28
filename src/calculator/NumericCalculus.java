@@ -9,7 +9,7 @@ package calculator;
  *
  * @author user
  */
-public class NumericCalculus {
+public class NumericCalculus implements NumaInterface {
     double[][] function1_points;
     double[][] function2_points;
     double[] function1_exp;
