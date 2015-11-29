@@ -9,7 +9,7 @@ package calculator;
  *
  * @author user
  */
-public class NumericIntegralCalculus extends NumericCalculus {
+public class NumericIntegralCalculus extends NumericCalculus implements IntegralCalculusInterface {
     
     public void Rectangular(double max_error)
     {
