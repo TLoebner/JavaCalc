@@ -17,7 +17,7 @@
     <path refid="classpath.base" />
   </path>
 
-  <target name="test" depends="run, clean, doc" />
+  <target name="test" depends="run, clean, UML_doc" />
 
   <target name="compile">
     <mkdir dir="${main.build.dir}"/>
@@ -84,6 +84,7 @@
                 <param name="-tag" value="return"/>
                 <param name="-tag" value="see"/>
                 <param name="-tag" value="y.uml"/>
+                <param name="-umlfileformat" value="PNG"/>
             </doclet>
       </javadoc>
     </target>
