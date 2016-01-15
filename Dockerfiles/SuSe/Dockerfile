@@ -1,2 +1,2 @@
-FROM suse
+FROM opensuse
 
