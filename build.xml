@@ -94,9 +94,13 @@
   <target name="clean">
     <delete>
         <fileset dir="${basedir}" includes="**/*.class" />        
+    </delete>
+    <echo message="clean done" />
+  </target>
+  <target name="clean_all" depends="clean">
+    <delete>
 	<fileset dir="${doc.dir}" />
         <fileset dir="${uml.dir}" />
     </delete>
-    <echo message="clean done" />
   </target>
 </project>
