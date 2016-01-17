@@ -1,8 +1,4 @@
 language: java
-
-os:
-  - linux
-
 matrix:
   include:
     - jdk: oraclejdk7
@@ -10,6 +6,8 @@ matrix:
     - jdk: openjdk6
     - jdk: openjdk7
     - sudo: required
+      language: java
+      services: docker
       script:
-       - cd Dockerfiles/Ubuntu/
-       - ./build.sh
+       - cd Dockerfiles/Ubuntu/openjdk7/
+       - docker build -t ubuntu_jdk7 .
