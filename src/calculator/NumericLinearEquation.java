@@ -4,7 +4,7 @@ package calculator;
 /**
  *
  * <p>Java class for basic math.
- * @author Torsten Löbner <loebnert@gmail.com>
+ * @author Torsten Loebner <loebnert@gmail.com>
  */
 public class NumericLinearEquation extends NumericCalculus {
     

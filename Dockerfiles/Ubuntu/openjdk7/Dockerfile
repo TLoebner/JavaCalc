@@ -5,7 +5,7 @@ RUN apt-get -y install openjdk-7-jdk git
 RUN apt-get -y install ant
 RUN mkdir /testsoftware
 WORKDIR /testsoftware
-RUN git clone --branch=$TRAVIS_BRANCH https://github.com/TLoebner/JavaCalc.git
+RUN git clone --branch=numa_stuff https://github.com/TLoebner/JavaCalc.git
 WORKDIR /testsoftware/JavaCalc
 RUN java -version
 RUN ant 
