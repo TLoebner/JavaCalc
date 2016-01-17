@@ -7,3 +7,9 @@ jdk:
 
 os:
   - linux
+
+matrix:
+  include:
+    - script:
+       - cd Dockerfiles/Ubuntu/
+       - ./build.sh
