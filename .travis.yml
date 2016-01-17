@@ -1,15 +1,15 @@
 language: java
-jdk:
-  - oraclejdk7
-  - oraclejdk8
-  - openjdk7
-  - openjdk6
 
 os:
   - linux
 
 matrix:
   include:
-    - script:
+    - jdk: oraclejdk7
+    - jdk: oraclejdk8
+    - jdk: openjdk6
+    - jdk: openjdk7
+    - sudo: required
+      script:
        - cd Dockerfiles/Ubuntu/
        - ./build.sh
