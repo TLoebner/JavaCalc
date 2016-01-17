@@ -93,7 +93,9 @@
   <!-- To run this: use "ant clean" -->
   <target name="clean">
     <delete>
-        <fileset dir="${basedir}" includes="**/*.class" />
+        <fileset dir="${basedir}" includes="**/*.class" />        
+	<fileset dir="${doc.dir}" />
+        <fileset dir="${uml.dir}" />
     </delete>
     <echo message="clean done" />
   </target>
