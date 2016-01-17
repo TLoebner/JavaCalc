@@ -8,7 +8,8 @@ matrix:
     - sudo: required
       language: java
       services: docker
-      TRVIS_TAG=Ubuntu_JDK7
+      env:
+        - TRVIS_TAG=Ubuntu_JDK7
       script:
        - cd Dockerfiles/Ubuntu/openjdk7/
        - docker build -t ubuntu_jdk7 .
@@ -21,7 +22,8 @@ matrix:
     - sudo: required
       language: java
       services: docker
-      TRVIS_TAG=Debian_JDK7
+      env:
+        - TRVIS_TAG=Debian_JDK7
       script:
        - cd Dockerfiles/Debian/openjdk7/
        - docker build -t debian_jdk7 .
@@ -34,14 +36,16 @@ matrix:
     - sudo: required
       language: java
       services: docker
-      TRVIS_TAG=Archlinux_JDK7
+      env:
+        - TRVIS_TAG=Archlinux_JDK7
       script:
        - cd Dockerfiles/Archlinux/openjdk7/
        - docker build -t archlinux_jdk7 .
     - sudo: required
       language: java
       services: docker
-      TRVIS_TAG=Archlinux_JDK8
+      env:
+        - TRVIS_TAG=Archlinux_JDK8
       script:
        - cd Dockerfiles/Archlinux/openjdk8/
        - docker build -t archlinux_jdk8 .
