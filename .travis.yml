@@ -57,3 +57,11 @@ matrix:
       script:
        - cd Dockerfiles/Archlinux/openjdk8/
        - docker build -t archlinux_jdk8 .
+    - sudo: required
+      language: java
+      services: docker
+      env:
+        - Deployment=Fedora_JDK8
+      script:
+       - cd Dockerfiles/Fedora/openjdk8/
+       - docker build -t fedora_jdk8 .
