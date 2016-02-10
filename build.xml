@@ -17,7 +17,7 @@
     <path refid="classpath.base" />
   </path>
 
-  <target name="test" depends="run, clean, doc" />
+  <target name="test" depends="run, clean, UML_doc" />
 
   <target name="compile">
     <mkdir dir="${main.build.dir}"/>
@@ -84,6 +84,7 @@
                 <param name="-tag" value="return"/>
                 <param name="-tag" value="see"/>
                 <param name="-tag" value="y.uml"/>
+                <param name="-umlfileformat" value="PNG"/>
             </doclet>
       </javadoc>
     </target>
@@ -92,8 +93,14 @@
   <!-- To run this: use "ant clean" -->
   <target name="clean">
     <delete>
-        <fileset dir="${basedir}" includes="**/*.class" />
+        <fileset dir="${basedir}" includes="**/*.class" />        
     </delete>
     <echo message="clean done" />
+  </target>
+  <target name="clean_all" depends="clean">
+    <delete>
+	<fileset dir="${doc.dir}" />
+        <fileset dir="${uml.dir}" />
+    </delete>
   </target>
 </project>

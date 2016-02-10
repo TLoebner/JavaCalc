@@ -1,15 +1,10 @@
 
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package calculator;
 
 /**
  *
- * @author user
+ * <p>Java class for basic math.
+ * @author Torsten Loebner <loebnert@gmail.com>
  */
 public class Calculator {
 
