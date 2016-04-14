@@ -12,6 +12,16 @@ UML_doc	-	create UML-files with javadoc using ydoc
 clean	-	clean all
 ```
 
+### Jobs in pom.xml (maven)
+
+```
+build				-	build classes from source
+test				-	perform JUnit-tests
+javadoc:jar			-	create UML-files with javadoc using ydoc for sources
+javadoc:test-jar	-	create UML-files with javadoc using ydoc for test cases
+clean				-	clean all
+```
+
 ### Testresults for branch master
 [![Build 
 Status](https://travis-ci.org/TLoebner/JavaCalc.svg?branch=master)](https://travis-ci.org/TLoebner/JavaCalc)

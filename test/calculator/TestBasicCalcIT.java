@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author user
  */
-public class basicCalcIT {
+public class TestBasicCalcIT {
     
-    public basicCalcIT() {
+    public TestBasicCalcIT() {
     }
     
     @BeforeClass

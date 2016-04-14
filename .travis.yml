@@ -4,15 +4,43 @@ matrix:
     - jdk: oraclejdk7
       env:
         - JDK_Test=Oracle JDK7
+      script:
+        - ant
     - jdk: oraclejdk8
       env:
         - JDK_Test=Oracle JDK8
+      script:
+        - ant
     - jdk: openjdk6
       env:
         - JDK_Test=open-JDK6
+      script:
+        - ant
     - jdk: openjdk7
       env:
         - JDK_Test=open-JDK7
+      script:
+        - ant
+    - jdk: oraclejdk7
+      env:
+        - JDK_Test=Oracle JDK7
+      script:
+        - mvn test
+    - jdk: oraclejdk8
+      env:
+        - JDK_Test=Oracle JDK8
+      script:
+        - mvn test
+    - jdk: openjdk6
+      env:
+        - JDK_Test=open-JDK6
+      script:
+        - mvn test
+    - jdk: openjdk7
+      env:
+        - JDK_Test=open-JDK7
+      script:
+        - mvn test
     - sudo: required
       language: java
       services: docker
