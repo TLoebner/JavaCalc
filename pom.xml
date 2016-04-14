@@ -24,8 +24,8 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>2.10.3</version>
         <configuration>
-          <!--<stylesheetfile>${basedir}/src/main/javadoc/stylesheet.css</stylesheetfile>-->
-          <!--<destDir>./doc/</destDir>
+          <stylesheetfile>${basedir}/src/main/javadoc/stylesheet.css</stylesheetfile>
+          <destDir>./doc/</destDir>
           <show>public</show>
         </configuration>
       </plugin>-->
