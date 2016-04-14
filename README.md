@@ -2,7 +2,7 @@
 
 ## Build & Test Results
 
-### Jobs in build.xml
+### Jobs in build.xml (ant)
 
 ```
 build	-	build classes from source
