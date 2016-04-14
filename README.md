@@ -20,4 +20,5 @@ Status](https://travis-ci.org/TLoebner/JavaCalc.svg?branch=master)](https://trav
 [![Build 
 Status](https://travis-ci.org/TLoebner/JavaCalc.svg)](https://travis-ci.org/TLoebner/JavaCalc)
 
+### Testresults for branch MavenTest
 [ ![Codeship Status for torlbn/javacalc2](https://codeship.com/projects/69840880-e391-0133-541d-0ae7e6ad137a/status?branch=MavenTest)](https://codeship.com/projects/146027)
