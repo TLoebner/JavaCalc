@@ -14,7 +14,7 @@
   <sourceDirectory>./src/</sourceDirectory>
   <testSourceDirectory>./test/</testSourceDirectory>
   <outputDirectory>./target/</outputDirectory>
-  <testOutputDirectory>./test_target/</testOutputDirectory
+  <testOutputDirectory>./test_target/</testOutputDirectory>
   <plugin>
    <groupId>org.apache.maven.plugins</groupId>
    <artifactId>maven-surefire-plugin</artifactId>
