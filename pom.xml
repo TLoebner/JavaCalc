@@ -17,6 +17,47 @@
   <testOutputDirectory>./test_target/</testOutputDirectory>
  </build> 
  
+   <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.10.3</version>
+        <configuration>
+          <!--<stylesheetfile>${basedir}/src/main/javadoc/stylesheet.css</stylesheetfile>-->
+          <destDir>./doc/</destDir>
+          <show>public</show>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.10.3</version>
+        <configuration>
+          <!--<stylesheetfile>${basedir}/src/main/javadoc/stylesheet.css</stylesheetfile>-->
+          <destDir>./uml_doc/</destDir>
+          <show>public</show>
+          <doclet>ydoc.doclets.YStandard</doclet>
+          <docletPath>./lib/ydoc.jar:./lib/styleed.jar:./lib/resources</docletPath>
+          <additionalparam>-umlautogen</additionalparam>
+          <!--<param name="-author"/>
+          <param name="-generic"/>
+          <param name="-umlautogen"/>
+          <param name="-filterpath" value="./lib/ydoc.jar"/>
+          <param name="-filter"     value="ydoc.filters.ExcludeFilter"/>
+          <param name="-tag" value="y.precondition"/>
+          <param name="-tag" value="y.postcondition"/>
+          <param name="-tag" value="y.complexity"/>
+          <param name="-tag" value="param"/>
+          <param name="-tag" value="return"/>
+          <param name="-tag" value="see"/>
+          <param name="-tag" value="y.uml"/>
+          <param name="-umlfileformat" value="PNG"/>-->
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+ 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
