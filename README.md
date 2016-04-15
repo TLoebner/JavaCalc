@@ -5,11 +5,11 @@
 ### Jobs in build.xml (ant)
 
 ```
-build	-	build classes from source
-test	-	perform JUnit-tests
-doc	-	create standard javadoc documentation
-UML_doc	-	create UML-files with javadoc using ydoc
-clean	-	clean all
+build				-	build classes from source
+test				-	perform JUnit-tests
+doc					-	create standard javadoc documentation
+UML_doc				-	create UML-files with javadoc using ydoc
+clean				-	clean all
 ```
 
 ### Jobs in pom.xml (maven)
