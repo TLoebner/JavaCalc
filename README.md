@@ -38,3 +38,9 @@ Status](https://travis-ci.org/TLoebner/JavaCalc.svg)](https://travis-ci.org/TLoe
 
 ### Testresults for branch master in shippable
 [![Run Status](https://api.shippable.com/projects/5710a13b2a8192902e1c1f69/badge?branch=master)](https://app.shippable.com/projects/5710a13b2a8192902e1c1f69)
+
+### Testresults for branch master in CircleCI
+[![Circle CI](https://circleci.com/gh/TLoebner/JavaCalc/tree/master.svg?style=svg)](https://circleci.com/gh/TLoebner/JavaCalc/tree/master)
+
+### Testresults for all branches in wercker
+[![wercker status](https://app.wercker.com/status/7a3c0799c9e3c547eb84cda1f9ef177d/m "wercker status")](https://app.wercker.com/project/bykey/7a3c0799c9e3c547eb84cda1f9ef177d)
