@@ -1,6 +1,15 @@
 # JavaCalc
 
 ## Build & Test Results
+### Branch master
+[![Build 
+Status](https://travis-ci.org/TLoebner/JavaCalc.svg?branch=master)](https://travis-ci.org/TLoebner/JavaCalc)
+[![Circle CI](https://circleci.com/gh/TLoebner/JavaCalc/tree/master.svg?style=svg)](https://circleci.com/gh/TLoebner/JavaCalc/tree/master)
+[ ![Codeship Status for TLoebner/JavaCalc](https://codeship.com/projects/7c6e8220-e47c-0133-76f3-7ef381c09b10/status?branch=master)](https://codeship.com/projects/146354)
+[ ![Codeship Status for TLoebner/JavaCalc](https://codeship.com/projects/7c6e8220-e47c-0133-76f3-7ef381c09b10/status?branch=master)](https://codeship.com/projects/146354)
+[![Run Status](https://api.shippable.com/projects/571139c22a8192902e1c8dea/badge?branch=master)](https://app.shippable.com/projects/571139c22a8192902e1c8dea)
+[![Coverage Badge](https://api.shippable.com/projects/571139c22a8192902e1c8dea/coverageBadge?branch=master)](https://app.shippable.com/projects/571139c22a8192902e1c8dea)
+[![wercker status](https://app.wercker.com/status/15e2d58f254cb7f999969708ca771149/m/master "wercker status")](https://app.wercker.com/project/bykey/15e2d58f254cb7f999969708ca771149)
 
 ### Jobs in build.xml (ant)
 
@@ -21,26 +30,3 @@ javadoc:jar			-	create UML-files with javadoc using ydoc for sources
 javadoc:test-jar	-	create UML-files with javadoc using ydoc for test cases
 clean				-	clean all
 ```
-
-### Testresults for branch master
-[![Build 
-Status](https://travis-ci.org/TLoebner/JavaCalc.svg?branch=master)](https://travis-ci.org/TLoebner/JavaCalc)
-
-### Testresults for branch numa_stuff
-[![Build 
-Status](https://travis-ci.org/TLoebner/JavaCalc.svg)](https://travis-ci.org/TLoebner/JavaCalc)
-
-### Testresults for branch master in bitbucket
-[![Codeship Status for torlbn/javacalc2](https://codeship.com/projects/69840880-e391-0133-541d-0ae7e6ad137a/status?branch=master)](https://codeship.com/projects/146027)
-
-### Testresults for branch MavenTest in bitbucket
-[![Codeship Status for torlbn/javacalc2](https://codeship.com/projects/69840880-e391-0133-541d-0ae7e6ad137a/status?branch=MavenTest)](https://codeship.com/projects/146027)
-
-### Testresults for branch master in shippable
-[![Run Status](https://api.shippable.com/projects/5710a13b2a8192902e1c1f69/badge?branch=master)](https://app.shippable.com/projects/5710a13b2a8192902e1c1f69)
-
-### Testresults for branch master in CircleCI
-[![Circle CI](https://circleci.com/gh/TLoebner/JavaCalc/tree/master.svg?style=svg)](https://circleci.com/gh/TLoebner/JavaCalc/tree/master)
-
-### Testresults for all branches in wercker
-[![wercker status](https://app.wercker.com/status/7a3c0799c9e3c547eb84cda1f9ef177d/m "wercker status")](https://app.wercker.com/project/bykey/7a3c0799c9e3c547eb84cda1f9ef177d)
