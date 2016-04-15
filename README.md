@@ -31,7 +31,10 @@ Status](https://travis-ci.org/TLoebner/JavaCalc.svg?branch=master)](https://trav
 Status](https://travis-ci.org/TLoebner/JavaCalc.svg)](https://travis-ci.org/TLoebner/JavaCalc)
 
 ### Testresults for branch master in bitbucket
-![Codeship Status for torlbn/javacalc2](https://codeship.com/projects/69840880-e391-0133-541d-0ae7e6ad137a/status?branch=master)](https://codeship.com/projects/146027)
+[![Codeship Status for torlbn/javacalc2](https://codeship.com/projects/69840880-e391-0133-541d-0ae7e6ad137a/status?branch=master)](https://codeship.com/projects/146027)
 
 ### Testresults for branch MavenTest in bitbucket
-![Codeship Status for torlbn/javacalc2](https://codeship.com/projects/69840880-e391-0133-541d-0ae7e6ad137a/status?branch=MavenTest)](https://codeship.com/projects/146027)
+[![Codeship Status for torlbn/javacalc2](https://codeship.com/projects/69840880-e391-0133-541d-0ae7e6ad137a/status?branch=MavenTest)](https://codeship.com/projects/146027)
+
+### Testresults for branch master in shippable
+[![Run Status](https://api.shippable.com/projects/5710a13b2a8192902e1c1f69/badge?branch=master)](https://app.shippable.com/projects/5710a13b2a8192902e1c1f69)
