@@ -11,6 +11,8 @@ Status](https://travis-ci.org/TLoebner/JavaCalc.svg?branch=master)](https://trav
 [![Coverage Badge](https://api.shippable.com/projects/571139c22a8192902e1c8dea/coverageBadge?branch=master)](https://app.shippable.com/projects/571139c22a8192902e1c8dea)
 [![wercker status](https://app.wercker.com/status/15e2d58f254cb7f999969708ca771149/m/master "wercker status")](https://app.wercker.com/project/bykey/15e2d58f254cb7f999969708ca771149)
 
+## Build options
+
 ### Jobs in build.xml (ant)
 
 ```
