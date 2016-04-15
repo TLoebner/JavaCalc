@@ -5,11 +5,3 @@ build:
         name: maven build
         code: |
           mvn clean javadoc:jar javadoc:test-jar test
-          
-box: maven:3-jdk-8
-build:
-  steps:
-    - script:
-        name: maven build
-        code: |
-          mvn clean javadoc:jar javadoc:test-jar test
