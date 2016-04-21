@@ -3,49 +3,49 @@ matrix:
   include:
     - jdk: oraclejdk7
       env:
-        - JDK_Test=Oracle JDK7 [ant]
+        - JDK_Test="Oracle JDK7 [ant]"
       script:
         - ant
     - jdk: oraclejdk8
       env:
-        - JDK_Test=Oracle JDK8 [ant]
+        - JDK_Test="Oracle JDK8 [ant]"
       script:
         - ant
     - jdk: openjdk6
       env:
-        - JDK_Test=open-JDK6 [ant]
+        - JDK_Test="open-JDK6 [ant]"
       script:
         - ant
     - jdk: openjdk7
       env:
-        - JDK_Test=open-JDK7 [ant]
+        - JDK_Test="open-JDK7 [ant]"
       script:
         - ant
     - jdk: oraclejdk7
       env:
-        - JDK_Test=Oracle JDK7 [maven]
+        - JDK_Test="Oracle JDK7 [maven]"
       script:
         - mvn test
     - jdk: oraclejdk8
       env:
-        - JDK_Test=Oracle JDK8 [maven]
+        - JDK_Test="Oracle JDK8 [maven]"
       script:
         - mvn test
     - jdk: openjdk6
       env:
-        - JDK_Test=open-JDK6 [maven]
+        - JDK_Test="open-JDK6 [maven]"
       script:
         - mvn test
     - jdk: openjdk7
       env:
-        - JDK_Test=open-JDK7 [maven]
+        - JDK_Test="open-JDK7 [maven]"
       script:
         - mvn test
     - sudo: required
       language: java
       services: docker
       env:
-        - Deployment=Ubuntu_JDK7
+        - Deployment="Ubuntu_JDK7"
       script:
        - cd Dockerfiles/Ubuntu/openjdk7/
        - docker build -t ubuntu_jdk7 .
@@ -59,7 +59,7 @@ matrix:
       language: java
       services: docker
       env:
-        - Deployment=Debian_JDK7
+        - Deployment="Debian_JDK7"
       script:
        - cd Dockerfiles/Debian/openjdk7/
        - docker build -t debian_jdk7 .
@@ -73,23 +73,23 @@ matrix:
       language: java
       services: docker
       env:
-        - Deployment=Archlinux_JDK7
+        - Deployment="Archlinux_JDK7"
       script:
        - cd Dockerfiles/Archlinux/openjdk7/
        - docker build -t archlinux_jdk7 .
-#    - sudo: required
-#      language: java
-#      services: docker
-#      env:
-#        - Deployment=Archlinux_JDK8
-#      script:
-#       - cd Dockerfiles/Archlinux/openjdk8/
-#       - docker build -t archlinux_jdk8 .
     - sudo: required
       language: java
       services: docker
       env:
-        - Deployment=Fedora_JDK8
+        - Deployment="Archlinux_JDK8"
+      script:
+       - cd Dockerfiles/Archlinux/openjdk8/
+       - docker build -t archlinux_jdk8 .
+    - sudo: required
+      language: java
+      services: docker
+      env:
+        - Deployment="Fedora_JDK8"
       script:
        - cd Dockerfiles/Fedora/openjdk8/
        - docker build -t fedora_jdk8 .
