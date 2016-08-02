@@ -1,4 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/TLoebner/JavaCalc.png?label=ready&title=Ready)](https://waffle.io/TLoebner/JavaCalc)
 # JavaCalc
 
 ## Build & Test Results
@@ -12,7 +11,7 @@ Status](https://travis-ci.org/TLoebner/JavaCalc.svg?branch=master)](https://trav
 [![Coverage Badge](https://api.shippable.com/projects/571139c22a8192902e1c8dea/coverageBadge?branch=master)](https://app.shippable.com/projects/571139c22a8192902e1c8dea)
 [![wercker status](https://app.wercker.com/status/15e2d58f254cb7f999969708ca771149/m/master "wercker status")](https://app.wercker.com/project/bykey/15e2d58f254cb7f999969708ca771149)
 [![ReviewNinja](https://app.review.ninja/46268749/badge)](https://app.review.ninja/TLoebner/JavaCalc)
-[![Throughput Graph](https://graphs.waffle.io/TLoebner/JavaCalc/throughput.svg)](https://waffle.io/TLoebner/JavaCalc/metrics/throughput)
+[![Stories in Ready](https://badge.waffle.io/TLoebner/JavaCalc.png?label=ready&title=Ready)](https://waffle.io/TLoebner/JavaCalc)
 
 
 ## Build options
