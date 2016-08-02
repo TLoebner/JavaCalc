@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/TLoebner/JavaCalc.png?label=ready&title=Ready)](https://waffle.io/TLoebner/JavaCalc)
 # JavaCalc
 
 ## Build & Test Results
