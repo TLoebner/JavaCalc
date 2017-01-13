@@ -45,16 +45,30 @@ matrix:
       language: java
       services: docker
       env:
+        - Deployment="Ubuntu_JDK6"
+      script:
+       - cd Dockerfiles/Ubuntu/openjdk6/
+       - docker build -t ubuntu_jdk6 .
+    - sudo: required
+      language: java
+      services: docker
+      env:
         - Deployment="Ubuntu_JDK7"
       script:
        - cd Dockerfiles/Ubuntu/openjdk7/
        - docker build -t ubuntu_jdk7 .
-#    - sudo: required
-#      language: java
-#      services: docker
-#      script:
-#       - cd Dockerfiles/Ubuntu/openjdk8/
-#       - docker build -t ubuntu_jdk8 .
+    - sudo: required
+      language: java
+      services: docker
+      script:
+       - cd Dockerfiles/Ubuntu/openjdk8/
+       - docker build -t ubuntu_jdk8 .
+    - sudo: required
+      language: java
+      services: docker
+      script:
+       - cd Dockerfiles/Ubuntu/openjdk9/
+       - docker build -t ubuntu_jdk9 .
     - sudo: required
       language: java
       services: docker
