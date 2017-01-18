@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 RUN apt-get update
 RUN apt-get -y upgrade
-RUN apt-get -y install openjdk-9-jdk git
+RUN apt-get -y install openjdk-9-jdk-headless git
 RUN apt-get -y install ant
 RUN mkdir /testsoftware
 WORKDIR /testsoftware
