@@ -7,7 +7,7 @@ RUN zypper --non-interactive-include-reboot-patches --non-interactive --gpg-auto
 RUN mkdir /testsoftware
 WORKDIR /testsoftware
 RUN ssh-keygen -t rsa -N "" -f my.key
-RUN git clone --branch=numa_stuff https://github.com/TLoebner/JavaCalc.git
+RUN git clone https://github.com/TLoebner/JavaCalc.git
 WORKDIR /testsoftware/JavaCalc
 RUN java -version
 RUN ant 
