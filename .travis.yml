@@ -60,12 +60,16 @@ matrix:
     - sudo: required
       language: java
       services: docker
+      env:
+        - Deployment="Ubuntu_JDK8"
       script:
        - cd Dockerfiles/Ubuntu/openjdk8/
        - docker build -t ubuntu_jdk8 .
     - sudo: required
       language: java
       services: docker
+      env:
+        - Deployment="Ubuntu_JDK9"
       script:
        - cd Dockerfiles/Ubuntu/openjdk9/
        - docker build -t ubuntu_jdk9 .
@@ -77,28 +81,30 @@ matrix:
       script:
        - cd Dockerfiles/Debian/openjdk7/
        - docker build -t debian_jdk7 .
-#    - sudo: required
-#      language: java
-#      services: docker
-#      script:
-#       - cd Dockerfiles/Debian/openjdk8/
-#       - docker build -t debian_jdk8 .
-#    - sudo: required
-#      language: java
-#      services: docker
-#      env:
-#        - Deployment="Archlinux_JDK7"
-#      script:
-#       - cd Dockerfiles/Archlinux/openjdk7/
-#       - docker build -t archlinux_jdk7 .
-#    - sudo: required
-#      language: java
-#      services: docker
-#      env:
-#        - Deployment="Archlinux_JDK8"
-#      script:
-#       - cd Dockerfiles/Archlinux/openjdk8/
-#       - docker build -t archlinux_jdk8 .
+    - sudo: required
+      language: java
+      services: docker
+      env:
+        - Deployment="Debian_JDK8"
+      script:
+       - cd Dockerfiles/Debian/openjdk8/
+       - docker build -t debian_jdk8 .
+    - sudo: required
+      language: java
+      services: docker
+      env:
+        - Deployment="Archlinux_JDK7"
+      script:
+       - cd Dockerfiles/Archlinux/openjdk7/
+       - docker build -t archlinux_jdk7 .
+    - sudo: required
+      language: java
+      services: docker
+      env:
+        - Deployment="Archlinux_JDK8"
+      script:
+       - cd Dockerfiles/Archlinux/openjdk8/
+       - docker build -t archlinux_jdk8 .
     - sudo: required
       language: java
       services: docker
